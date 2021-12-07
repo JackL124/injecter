@@ -4,7 +4,7 @@
  [![MinSdk](https://img.shields.io/badge/%20MinSdk%20-%2019%2B%20-f0ad4e.svg)](https://android-arsenal.com/api?level=19)
 
 
-## 基于注解+反射+动态代理实现的注解框架 ###
+## 基于反射+动态代理实现的注解框架 ###
 
 ## Demo
 [Download APK-Demo](apk/app-debug.apk)
