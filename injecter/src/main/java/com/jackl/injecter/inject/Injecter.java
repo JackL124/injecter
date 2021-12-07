@@ -101,7 +101,7 @@ public class Injecter {
                 Method getViewMethod = tagetClass.getMethod("getView");
                 //取消访问检查
                 getViewMethod.setAccessible(true);
-                View mView= (View) getViewMethod.invoke(obj,null);
+                View mView= (View) getViewMethod.invoke(obj);
                 bindView = mView.findViewById(id);
             }
             if (bindView != null) {
